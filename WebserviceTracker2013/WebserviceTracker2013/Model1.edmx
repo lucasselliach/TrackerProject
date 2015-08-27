@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="lucasseABETOtTBIModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="lucasseABETOtTBIModelStoreContainer">
+          <EntitySet Name="Rastreadores" EntityType="lucasseABETOtTBIModel.Store.Rastreadores" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Rastreadores">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Serial" Type="float" Nullable="false" />
+          <Property Name="StatusSO" Type="bit" Nullable="false" />
+          <Property Name="LatitudeGPS" Type="nvarchar(max)" />
+          <Property Name="LongitudeGPS" Type="nvarchar(max)" />
+          <Property Name="AltitudeGPS" Type="nvarchar(max)" />
+          <Property Name="VelocidadeGPS" Type="nvarchar(max)" />
+          <Property Name="DateTimeGPS" Type="datetime" Nullable="false" />
+          <Property Name="DateTimeService" Type="datetime" Nullable="false" />
+          <Property Name="NumeroDeSatelites" Type="smallint" Nullable="false" />
+          <Property Name="QualidadeSinalGPS" Type="smallint" Nullable="false" />
+          <Property Name="QualidadeSinalGSM" Type="smallint" Nullable="false" />
+          <Property Name="Observacao" Type="nvarchar(max)" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="lucasseABETOtTBIModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="lucasseABETOtTBIEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Rastreadores" EntityType="lucasseABETOtTBIModel.Rastreadores" />
+        </EntityContainer>
+        <EntityType Name="Rastreadores">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Serial" Type="Double" Nullable="false" />
+          <Property Name="StatusSO" Type="Boolean" Nullable="false" />
+          <Property Name="LatitudeGPS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="LongitudeGPS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="AltitudeGPS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="VelocidadeGPS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DateTimeGPS" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="DateTimeService" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="NumeroDeSatelites" Type="Int16" Nullable="false" />
+          <Property Name="QualidadeSinalGPS" Type="Int16" Nullable="false" />
+          <Property Name="QualidadeSinalGSM" Type="Int16" Nullable="false" />
+          <Property Name="Observacao" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="lucasseABETOtTBIModelStoreContainer" CdmEntityContainer="lucasseABETOtTBIEntities">
+          <EntitySetMapping Name="Rastreadores">
+            <EntityTypeMapping TypeName="lucasseABETOtTBIModel.Rastreadores">
+              <MappingFragment StoreEntitySet="Rastreadores">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Serial" ColumnName="Serial" />
+                <ScalarProperty Name="StatusSO" ColumnName="StatusSO" />
+                <ScalarProperty Name="LatitudeGPS" ColumnName="LatitudeGPS" />
+                <ScalarProperty Name="LongitudeGPS" ColumnName="LongitudeGPS" />
+                <ScalarProperty Name="AltitudeGPS" ColumnName="AltitudeGPS" />
+                <ScalarProperty Name="VelocidadeGPS" ColumnName="VelocidadeGPS" />
+                <ScalarProperty Name="DateTimeGPS" ColumnName="DateTimeGPS" />
+                <ScalarProperty Name="DateTimeService" ColumnName="DateTimeService" />
+                <ScalarProperty Name="NumeroDeSatelites" ColumnName="NumeroDeSatelites" />
+                <ScalarProperty Name="QualidadeSinalGPS" ColumnName="QualidadeSinalGPS" />
+                <ScalarProperty Name="QualidadeSinalGSM" ColumnName="QualidadeSinalGSM" />
+                <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

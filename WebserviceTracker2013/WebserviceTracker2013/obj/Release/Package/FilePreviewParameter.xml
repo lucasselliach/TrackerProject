@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="selliach" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\LucasSelliach\\Desktop\\WebserviceTracker2013\\WebserviceTracker2013\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\LucasSelliach\\Desktop\\WebserviceTracker2013\\WebserviceTracker2013\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="lucasseABETOtTBIEntities-Web.config Connection String" description="" value="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=p1v6hw6pav.database.windows.net,1433;initial catalog=lucasseABETOtTBI;persist security info=True;user id=lucasselliach@p1v6hw6pav;password=vcMPdENA12e30H;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\LucasSelliach\\Desktop\\WebserviceTracker2013\\WebserviceTracker2013\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='lucasseABETOtTBIEntities']/@connectionString" />
+  </parameter>
+</parameters>

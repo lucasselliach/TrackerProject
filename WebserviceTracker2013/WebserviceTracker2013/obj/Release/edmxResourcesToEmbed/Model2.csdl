@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="lucasDataBaseModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="lucasDataBaseEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Rastreadores" EntityType="lucasDataBaseModel.Rastreadores" />
+  </EntityContainer>
+  <EntityType Name="Rastreadores">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Serial" Type="Double" Nullable="false" />
+    <Property Name="StatusSO" Type="Boolean" Nullable="false" />
+    <Property Name="LatitudeGPS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="LongitudeGPS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="AltitudeGPS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="VelocidadeGPS" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="DateTimeGPS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateTimeService" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="NumeroDeSatelites" Type="Int16" Nullable="false" />
+    <Property Name="QualidadeSinalGPS" Type="Int16" Nullable="false" />
+    <Property Name="QualidadeSinalGSM" Type="Int16" Nullable="false" />
+    <Property Name="Observacao" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+</Schema>

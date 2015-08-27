@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="lucasseABETOtTBIModelStoreContainer" CdmEntityContainer="lucasseABETOtTBIEntities">
+    <EntitySetMapping Name="Rastreadores">
+      <EntityTypeMapping TypeName="lucasseABETOtTBIModel.Rastreadores">
+        <MappingFragment StoreEntitySet="Rastreadores">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="StatusSO" ColumnName="StatusSO" />
+          <ScalarProperty Name="LatitudeGPS" ColumnName="LatitudeGPS" />
+          <ScalarProperty Name="LongitudeGPS" ColumnName="LongitudeGPS" />
+          <ScalarProperty Name="AltitudeGPS" ColumnName="AltitudeGPS" />
+          <ScalarProperty Name="VelocidadeGPS" ColumnName="VelocidadeGPS" />
+          <ScalarProperty Name="DateTimeGPS" ColumnName="DateTimeGPS" />
+          <ScalarProperty Name="DateTimeService" ColumnName="DateTimeService" />
+          <ScalarProperty Name="NumeroDeSatelites" ColumnName="NumeroDeSatelites" />
+          <ScalarProperty Name="QualidadeSinalGPS" ColumnName="QualidadeSinalGPS" />
+          <ScalarProperty Name="QualidadeSinalGSM" ColumnName="QualidadeSinalGSM" />
+          <ScalarProperty Name="Observacao" ColumnName="Observacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

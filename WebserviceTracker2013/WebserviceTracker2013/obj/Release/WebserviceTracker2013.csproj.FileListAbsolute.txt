@@ -1,0 +1,14 @@
+C:\Users\LucasSelliach\Desktop\WebserviceTracker2013\WebserviceTracker2013\bin\WebserviceTracker2013.dll
+C:\Users\LucasSelliach\Desktop\WebserviceTracker2013\WebserviceTracker2013\bin\WebserviceTracker2013.pdb
+C:\Users\LucasSelliach\Desktop\WebserviceTracker2013\WebserviceTracker2013\bin\EntityFramework.dll
+C:\Users\LucasSelliach\Desktop\WebserviceTracker2013\WebserviceTracker2013\bin\EntityFramework.xml
+C:\Users\LucasSelliach\Desktop\WebserviceTracker2013\WebserviceTracker2013\obj\Release\WebserviceTracker2013.dll
+C:\Users\LucasSelliach\Desktop\WebserviceTracker2013\WebserviceTracker2013\obj\Release\WebserviceTracker2013.pdb
+C:\Users\LucasSelliach\Desktop\WebserviceTracker2013\WebserviceTracker2013\obj\Release\WebserviceTracker2013.csprojResolveAssemblyReference.cache
+C:\Users\LucasSelliach\Dropbox\Faculdade\TTC 2013 - ETAPA2\Desenvolvimento\Outros\WebserviceTracker2013\WebserviceTracker2013\bin\WebserviceTracker2013.dll
+C:\Users\LucasSelliach\Dropbox\Faculdade\TTC 2013 - ETAPA2\Desenvolvimento\Outros\WebserviceTracker2013\WebserviceTracker2013\bin\WebserviceTracker2013.pdb
+C:\Users\LucasSelliach\Dropbox\Faculdade\TTC 2013 - ETAPA2\Desenvolvimento\Outros\WebserviceTracker2013\WebserviceTracker2013\bin\EntityFramework.dll
+C:\Users\LucasSelliach\Dropbox\Faculdade\TTC 2013 - ETAPA2\Desenvolvimento\Outros\WebserviceTracker2013\WebserviceTracker2013\bin\EntityFramework.xml
+C:\Users\LucasSelliach\Dropbox\Faculdade\TTC 2013 - ETAPA2\Desenvolvimento\Outros\WebserviceTracker2013\WebserviceTracker2013\obj\Release\WebserviceTracker2013.csprojResolveAssemblyReference.cache
+C:\Users\LucasSelliach\Dropbox\Faculdade\TTC 2013 - ETAPA2\Desenvolvimento\Outros\WebserviceTracker2013\WebserviceTracker2013\obj\Release\WebserviceTracker2013.dll
+C:\Users\LucasSelliach\Dropbox\Faculdade\TTC 2013 - ETAPA2\Desenvolvimento\Outros\WebserviceTracker2013\WebserviceTracker2013\obj\Release\WebserviceTracker2013.pdb

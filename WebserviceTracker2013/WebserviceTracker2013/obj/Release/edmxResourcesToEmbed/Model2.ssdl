@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="lucasDataBaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="lucasDataBaseModelStoreContainer">
+    <EntitySet Name="Rastreadores" EntityType="lucasDataBaseModel.Store.Rastreadores" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Rastreadores">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Serial" Type="float" Nullable="false" />
+    <Property Name="StatusSO" Type="bit" Nullable="false" />
+    <Property Name="LatitudeGPS" Type="nvarchar(max)" />
+    <Property Name="LongitudeGPS" Type="nvarchar(max)" />
+    <Property Name="AltitudeGPS" Type="nvarchar(max)" />
+    <Property Name="VelocidadeGPS" Type="nvarchar(max)" />
+    <Property Name="DateTimeGPS" Type="datetime" Nullable="false" />
+    <Property Name="DateTimeService" Type="datetime" Nullable="false" />
+    <Property Name="NumeroDeSatelites" Type="smallint" Nullable="false" />
+    <Property Name="QualidadeSinalGPS" Type="smallint" Nullable="false" />
+    <Property Name="QualidadeSinalGSM" Type="smallint" Nullable="false" />
+    <Property Name="Observacao" Type="nvarchar(max)" />
+  </EntityType>
+</Schema>
